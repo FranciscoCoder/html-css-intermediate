@@ -31,9 +31,8 @@ section{
 
 div{
   width: 29.33%;
-  border: 1px solid #e53854 ;
+  border: 2px solid #e53854 ;
   margin: 1rem 2%;
-  /*padding: 0 1rem;*/
   border-radius: 5px;
   overflow: hidden;
   background-color: #242424;

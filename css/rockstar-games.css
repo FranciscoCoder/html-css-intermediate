@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'RobotoRegular';
+	src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0.785rem;
+  transition: all 0.3s ease-in-out;
+}
+
+:root{
+  font-family: "RobotoRegular";
+  --background-color: #0b0b0b;
+  --background-color-a: #000;
+  --color-blanco: #fff;
+}
+
+body{
+  background-color: var(--background-color);
+  padding: 2rem 0;
+}
+
+.background_rockstar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.background_rockstar a{
+  overflow: hidden;
+  color: transparent;
+  border: 1px solid;
+  border-radius: 1px;
+  background-color: var(--background-color-a);
+}
+
+.background_image{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content_game{
+  
+}
+
+.content_game h5{
+  font-size: 2rem;
+}
