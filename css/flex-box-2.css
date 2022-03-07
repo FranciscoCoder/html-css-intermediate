@@ -131,6 +131,7 @@ button{
   font-size: 1.2rem;
   margin: 0 1em 0 0;
   cursor: pointer;
+  border-radius: 2px;
 }
 button:hover{
   background-color: #198754;

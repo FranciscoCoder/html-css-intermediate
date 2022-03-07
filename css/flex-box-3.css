@@ -90,10 +90,17 @@ h3{
   padding: 0 1em;
 }
 
+.stars{
+  margin: 0 0 1em;
+}
+
 .stars i{
   color: var(--green);
-  margin: 0 0 1em;
   font-size: 1.5rem;
+}
+
+.stars i:hover{
+  fill: var(--green)
 }
 
 .content_product{
