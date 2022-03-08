@@ -86,7 +86,10 @@ section{
 
 .first_data div{
  width: 50%;
- font-size: 3rem;
+}
+
+.first_data div strong{
+  font-size: 3rem;
 }
 
 .second_data{
