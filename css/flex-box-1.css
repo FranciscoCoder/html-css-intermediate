@@ -78,6 +78,7 @@ p{
   margin: 0.8rem 1rem 0.8rem 0;
   font-size: 1.2rem;
   border: 6px solid;
+  text-decoration: none;
   border-image: linear-gradient(to bottom right , #cc7428, #dc2474) 1;
   background: -webkit-linear-gradient(#cc7428, #dc2474);
   -webkit-background-clip: text;
