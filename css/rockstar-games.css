@@ -13,9 +13,18 @@
 
 :root{
   font-family: "RobotoRegular";
-  --background-color: #0b0b0b;
+  --background-color: #000;
   --background-color-a: #000;
   --color-blanco: #fff;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+img{
+  width: 100%; height: auto;
 }
 
 body{
@@ -23,31 +32,95 @@ body{
   padding: 2rem 0;
 }
 
-.background_rockstar{
+h1{
+  font-size: 3rem;
+  margin: 1em 6%;
+  color: #fff;
+}
+
+section{
+  background-color: #0B0B0B;
+  padding: 5em 0;
+}
+
+.list_game{
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
+  width: 90%;
+  margin: 0 auto;
 }
 
-.background_rockstar a{
+.list_game a{
   overflow: hidden;
-  color: transparent;
-  border: 1px solid;
-  border-radius: 1px;
-  background-color: var(--background-color-a);
+  border: 2px solid #282828;
+  border-radius: 3px;
+  display: flex;
+  flex-flow: column;
+  width: 31.33%;
+  margin: 2em 1%;
 }
 
-.background_image{
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.img_game{
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    aspect-ratio: 1/1;
 }
 
 .content_game{
-  
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
 }
 
-.content_game h5{
+.title_game{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 0 2em;
+}
+
+.title_game > *{
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+.title_game time{
+  color: #7C7C7C;
+  padding: 0 0 0 1em;
+}
+
+h5{
   font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+@media (max-width:1024px){
+  .list_game a{
+    width: 48%;
+  }
+  .content_game{
+    padding: 4em 2em;
+  }
+}
+@media (max-width:570px){
+  .list_game a{
+    width: 98%;
+  }
+}
+
+@media (max-width:380px){
+  .title_game{
+    flex-wrap: wrap;
+  }
+  
+  .title_game > *{
+    width: 100%;
+    font-size: 1.6rem;
+  }
+  
+  .title_game time{
+    padding: .5em 0;
+  }
 }
